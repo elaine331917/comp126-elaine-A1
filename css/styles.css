@@ -1,0 +1,73 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    background-color: #ffd6d6;
+}
+
+.active {
+    background-color: #ffadad;
+    font-weight: bold;
+}
+
+.nav li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 15px;
+    background-color: #ffd6d6
+}
+
+li a:hover {
+    background-color: #ffcbcb;
+}
+
+.custom-header {
+    background-image: url(../images/cupcake.png);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.header-container {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgba(255, 255, 255, 0.503);
+    display: block;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+img {
+    max-width: 150px;
+    float: left;
+    margin: 0 20px 10px;
+    padding-right: 20px;
+}
+
+.recipe {
+    background-color: aliceblue;
+    padding: 12px;
+    margin: 4px;
+    display:block;
+}
+
+.recipe-img {
+    background-color: rgb(188, 224, 255);
+    margin: 4px;
+}
+
+.recipe-content {
+    margin: 4px;
+}
