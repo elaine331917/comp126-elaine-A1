@@ -8,6 +8,7 @@ body {
     padding: 0;
     overflow: hidden;
     position: sticky;
+    top:0;
     background-color: #ffd6d6;
 }
 
@@ -54,14 +55,14 @@ img {
     float: left;
     margin: 0 20px 10px;
     padding-right: 20px;
-    position:relative;
     left:0;
 }
 
 .recipe {
     background-color: aliceblue;
     padding: 12px;
-    margin: 8px;
+    margin: 8px auto;
+    width: 70%;
 }
 
 .custom-footer {
@@ -74,7 +75,6 @@ img {
 .about-section {
     background-color: aliceblue;
     padding: 12px;
-    margin: 8px;
     text-align: center;
 }
 
